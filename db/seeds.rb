@@ -52,6 +52,15 @@ animal5 = Animal.create(
     user_id: user3.id
 )
 
+animal6 = Animal.create(
+    name: "Waffle", 
+    species: "Domestic Shorthair Cat",
+    description: "Domestics can be playful, affectionate, quiet, vocal, docile, or calm—but are often social, points out Trupanion. She is not an aggressive cat by nature, which makes her a terrific companion for children and seniors, and, with a proper introduction period, she's a great playmate for cats, dogs and other pets.",
+    image_url: "https://i.postimg.cc/kXYzL9MP/IMG-8541.jpg",
+    adopted?: true,
+    user_id: user3.id
+)
+
 puts "Creating donations..."
 Donation.create(
     amount: 10,
