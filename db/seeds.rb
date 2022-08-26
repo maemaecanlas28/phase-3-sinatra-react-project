@@ -164,7 +164,7 @@ animal18 = Animal.create(
 )
 
 
-animal6 = Animal.create(
+animal19 = Animal.create(
     name: "Waffle", 
     species: "Domestic Shorthair Cat",
     description: "Domestics can be playful, affectionate, quiet, vocal, docile, or calm—but are often social, points out Trupanion. She is not an aggressive cat by nature, which makes her a terrific companion for children and seniors, and, with a proper introduction period, she's a great playmate for cats, dogs and other pets.",
